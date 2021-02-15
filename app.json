@@ -1,0 +1,20 @@
+{
+  "name": "SRT-PO Converter",
+  "description": "A simple Telegram bot, which converts SRT files into PO files and back, replacing new line characters with a special text tag.",
+  "env": {
+    "TELEGRAM_TOKEN": {
+      "description": "If you don't have one, send a message to @BotFather in Telegram and create a new bot."
+    },
+    "SECRET": {
+      "description": "A secret key to use as a path for Telegram webhooks.",
+      "generator": "secret"
+    },
+    "ENV": {
+      "description": "Environment the application is running in. Use 'production' to run in a production mode, webhooks will be used then.",
+      "value": "production"
+    },
+    "URL": {
+      "description": "A URL of your app."
+    }
+  }
+}

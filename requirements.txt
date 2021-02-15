@@ -1,0 +1,12 @@
+APScheduler==3.6.3
+certifi==2020.12.5
+cffi==1.14.5
+cryptography==3.4.4
+polib==1.1.0
+pycparser==2.20
+python-telegram-bot==13.2
+pytz==2021.1
+six==1.15.0
+srt==3.4.1
+tornado==6.1
+tzlocal==2.1
