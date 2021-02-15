@@ -1,6 +1,6 @@
 # srt-to-po-bot
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/heroku/node-js-getting-started)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 This is a simple Telegram bot which converts **SRT** files into **PO** file format, additionally replacing newlines with a special `<nl>` tag, so it is convenient to process them in different CAT tools like [Smartcat](http://smartcat.com/).
 
