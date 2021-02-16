@@ -31,7 +31,6 @@ logger = logging.getLogger(__name__)
 def po_to_srt_converter(src_fp, dest_fp):
     po = polib.pofile(src_fp.read().decode("utf-8-sig"))
 
-    subtitles = []
     for unit in po:
         translated_content = unit.msgstr or unit.msgid
         lines = translated_content.split(NEW_LINE_TAG)
@@ -43,7 +42,6 @@ def po_to_srt_converter(src_fp, dest_fp):
         end = srt.srt_timestamp_to_timedelta(end)
 
         cue = srt.Subtitle(index=index, start=start, end=end, content=content)
-        subtitles.append(cue)
         dest_fp.write(cue.to_srt().encode("utf-8"))
 
 
