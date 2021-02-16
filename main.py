@@ -152,7 +152,6 @@ def main():
     dispatcher.add_handler(MessageHandler(Filters.document, document_handler, run_async=True))
     dispatcher.add_handler(MessageHandler(Filters.all, callback=catch_all_handler))
 
-    updater.bot.delete_webhook()
     if ENV == "production":
         updater.start_webhook(listen="0.0.0.0", port=PORT, url_path=SECRET)
         updater.bot.set_webhook(f"{URL}/{SECRET}")
