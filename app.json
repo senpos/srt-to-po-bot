@@ -14,8 +14,7 @@
       "value": "production"
     },
     "URL": {
-      "description": "A URL of your Heroku app. Make sure to set it once the app is created under \"Manage your app\" -> \"Settings\" -> \"Reveal Config Vars\"",
-      "required": false
+      "description": "A URL of your Heroku app: \"https://<app-name>.herokuapp.com\". For example, if your app name is \"my-cool-srt-converter\", the URL should be \"https://my-cool-srt-converter.herokuapp.com\". You can change it later on the app page under \"Settings\" -> \"Reveal Config Vars\"."
     }
   }
 }
