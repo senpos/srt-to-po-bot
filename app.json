@@ -14,7 +14,7 @@
       "value": "production"
     },
     "URL": {
-      "description": "A URL of your Heroku app. Make sure to set it once the app is created under Manager your app -> Settings - Reveal Config Vars",
+      "description": "A URL of your Heroku app. Make sure to set it once the app is created under \"Manage your app\" -> \"Settings\" -> \"Reveal Config Vars\"",
       "required": false
     }
   }
