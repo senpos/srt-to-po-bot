@@ -156,7 +156,7 @@ def main():
         updater.start_webhook(listen="0.0.0.0", port=PORT, url_path=SECRET)
         updater.bot.set_webhook(f"{URL}/{SECRET}")
     else:
-        updater.start_polling()
+        updater.start_polling(poll_interval=1)
     updater.idle()
 
 
