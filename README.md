@@ -1,6 +1,8 @@
 # srt-to-po-bot
+**❗ Starting November 28th 2022, [Heroku no longer provides a free tier](https://blog.heroku.com/next-chapter), so use this button with caution.**
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+--
 
 This is a simple Telegram bot which converts **SRT** files into **PO** file format, additionally replacing newlines with a special `<nl>` tag, so it is convenient to process them in different CAT tools like [Smartcat](http://smartcat.com/).
 
